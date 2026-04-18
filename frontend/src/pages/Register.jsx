@@ -43,7 +43,7 @@ function Register() {
         <div className="auth-page">
             <div className="auth-card">
                 <div className="auth-header">
-                    <h1>Join AI Bridge</h1>
+                    <h1>Join AI WingMan</h1>
                     <p>Start discovering opportunities</p>
                 </div>
                 <form onSubmit={handleSubmit}>

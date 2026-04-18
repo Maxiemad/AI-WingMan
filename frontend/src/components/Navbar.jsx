@@ -21,7 +21,7 @@ function Navbar() {
         <nav className="navbar">
             <Link to="/dashboard" className="nav-brand">
                 <span className="brand-icon">⚡</span>
-                <span>AI Bridge</span>
+                <span>AI WingMan</span>
             </Link>
             <div className="nav-links">
                 <Link to="/dashboard" className={cls('/dashboard')}>Dashboard</Link>

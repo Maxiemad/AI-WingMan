@@ -17,11 +17,11 @@ function Dashboard() {
     if (loading) {
         return (
             <div className="page-container">
-                <div className="skeleton" style={{height:100,marginBottom:'1.5rem',borderRadius:16}} />
-                <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:'1rem',marginBottom:'1.5rem'}}>
-                    {[1,2,3,4].map(i => <div key={i} className="skeleton" style={{height:110,borderRadius:16}} />)}
+                <div className="skeleton" style={{ height: 100, marginBottom: '1.5rem', borderRadius: 16 }} />
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+                    {[1, 2, 3, 4].map(i => <div key={i} className="skeleton" style={{ height: 110, borderRadius: 16 }} />)}
                 </div>
-                <div className="skeleton" style={{height:60,borderRadius:16}} />
+                <div className="skeleton" style={{ height: 60, borderRadius: 16 }} />
             </div>
         )
     }
@@ -68,7 +68,7 @@ function Dashboard() {
                     <span className="action-icon">👤</span>
                     <span className="action-text">Edit Profile</span>
                 </Link>
-                <a href="https://github.com/Maxiemad/AI-Bridge" target="_blank" rel="noreferrer" className="action-card">
+                <a href="https://github.com/Maxiemad/AI-WingMan" target="_blank" rel="noreferrer" className="action-card">
                     <span className="action-icon">⚡</span>
                     <span className="action-text">View Source</span>
                 </a>

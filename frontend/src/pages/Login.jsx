@@ -30,7 +30,7 @@ function Login() {
         <div className="auth-page">
             <div className="auth-card">
                 <div className="auth-header">
-                    <h1>AI Bridge</h1>
+                    <h1>AI WingMan</h1>
                     <p>Your opportunity wingman</p>
                 </div>
                 <form onSubmit={handleSubmit}>
